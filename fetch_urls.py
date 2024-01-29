@@ -1,16 +1,14 @@
 from selenium import webdriver
 
-# Launch the browser
+# Launches the browser
 driver = webdriver.Chrome()
 
-# Open the website
+# Opens the website
 driver.get("https://chainlist.org/")
 
-# Find the chain names, IDs, and RPC URLs
+# Finds the chain names, IDs, and RPC URLs
 
-# Organize chain names, IDs, and RPC URLs into dataframes
+# Organizes chain names, IDs, and RPC URLs into dataframes
 
-# Close the browser
+# Closes the browser
 driver.quit()
-
-# Organize the data based on chain ID using Chain instances

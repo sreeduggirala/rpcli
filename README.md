@@ -12,12 +12,8 @@ This code is free and publicly available under the Apache 2.0 open-source licens
 
 ## Utilization
 
-`rpcli fetch-rpc <chain-name>`
+`rpcli fetch-rpc <chain-name>` outputs the specified chain's RPC URLs into a text file
 
-- Ex. `rpcli fetch-rpc base-goerli`
+`rpcli fetch-rpc <chain-id>` outputs the specified chain's RPC URLs into a text file
 
-`rpcli fetch-rpc <chain-id>`
-
-- Ex. `rpcli fetch-rpc 84531`
-
-`rpcli fetch-id`
+`rpcli fetch-id` outputs all EVM-compatible chains' IDs into a text file
