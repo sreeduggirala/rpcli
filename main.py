@@ -45,6 +45,10 @@ def id():
     print(json.dumps(complete, indent=2))
     return complete
 
+# future expansion - actually pinging the RPC URLs and only presenting the ones with reasonable latency and maximum height of chain
+
+
+
 
 if __name__ == "__main__":
     app()
