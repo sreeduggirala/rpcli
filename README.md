@@ -14,11 +14,11 @@ We recommend installing rpcli in a virtual environment from PyPi.
 
 ## Features
 
-`rpcli fetch-rpc <chain-name>` outputs the specified chain's RPC URLs into a text file
+`rpcli fetch-rpc --chain-name <chain-name>` outputs the specified chain's RPC URLs into a text file
 
-`rpcli fetch-rpc <chain-id>` outputs the specified chain's RPC URLs into a text file
+`rpcli fetch-rpc --chain-id <chainID>` outputs the specified chain's RPC URLs into a text file
 
-`rpcli fetch-id` outputs all EVM-compatible chains' IDs into a text file
+`rpcli id` outputs all EVM-compatible chains' IDs into a text file
 
 ## Features
 
@@ -27,6 +27,7 @@ We recommend installing rpcli in a virtual environment from PyPi.
 
 ## Limitations
 
+- ``rpcli fetch id`` currently has no filtration (outputs all supported chainIDs)
 - No integration with Solidity development environments (i.e., Foundry, ApeWorX)
 - No automatic RPC URL parsing based on latency
 - Inefficient/clunky name-based fetching
