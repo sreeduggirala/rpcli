@@ -20,8 +20,6 @@ def get_url_name(name: str):
     print("chain not found")
     raise Exception("Chain not found")
 
-    
-
 
 # @notice: Fetches RPC URLs for the specified chain
 # @params: Chain ID
@@ -36,6 +34,7 @@ def get_url_id(id: int):
     print("chain not found")
     raise "Chain not found"
 
+
 # @notice: Outputs chain IDs for all EVM-compatible mainnets and testnets
 @app.command()
 def id():
@@ -45,10 +44,9 @@ def id():
     print(json.dumps(complete, indent=2))
     return complete
 
+
 # future expansion - actually pinging the RPC URLs and only presenting the ones with reasonable latency and maximum height of chain
 
 
-
-
 if __name__ == "__main__":
-    app()
+    typer.run(app())
