@@ -6,9 +6,9 @@ This code is free and publicly available under the Apache 2.0 open-source licens
 
 ## Installation
 
-[PyPi](https://pypi.org/project/rpcli)
+[PyPi](https://pypi.org/project/rpcli) -- NOT YET ACTIVE
 
-`pip install rpcli`
+`pip install rpcli` -- NOT YET ACTIVE
 
 ## Utilization
 
